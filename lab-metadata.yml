@@ -1,0 +1,17 @@
+lab:
+  name: "Red Hat Podman System Roles"
+  shortname: "zt-rhel-system-roles-podman"
+  maintainer: "Matthew Yee (myee@redhat.com)"
+
+  description:
+    summary: "Learn how to use the podman RHEL system role to deploy containers as systemd services."
+    goal: "Use the podman RHEL system role to define, deploy, and manage a containerized web service as code."
+    concepts:
+     - "Podman"
+     - "RHEL System Roles"
+    use_case: "Manage containerized services at scale with the podman RHEL system role"
+    time_to_complete: "30"
+
+  git_ref:
+    production: "main"
+    development: "main"
